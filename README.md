@@ -1,22 +1,22 @@
 # HTB Cyber Santa 2021
 A collection of writeups for the HackTheBox Cyber Santa CTF for 2021.
 
-##Crypto
+## Crypto
 
 * [Common Mistake](crypto/common_mistake)
 
-##Forensics
+## Forensics
 
 * [Baby APT](forensics/baby_apt)
 
-##Pwn
+## Pwn
 
 * [Mr. Snowy](pwn/mr_snowy)
 
-##Reversing
+## Reversing
 
 * [Infiltration](reversing/infiltration)
 
-##Web
+## Web
 
 * [Toy Workshop](web/toy_workshop)
