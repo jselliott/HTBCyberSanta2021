@@ -1,6 +1,6 @@
-#Reversing :: Infiltration
+# Reversing :: Infiltration
 
-###Challenge Files: [rev_infiltration.zip](rev_infiltration.zip)
+### Challenge Files: [rev_infiltration.zip](rev_infiltration.zip)
 
 For this challenge, we are provided with an executable, **client** and also a networked service to connect to. Running the program without any input shows:
 
