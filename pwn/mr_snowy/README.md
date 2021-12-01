@@ -1,6 +1,6 @@
-#Pwn :: Mr. Snowy
+# Pwn :: Mr. Snowy
 
-###Challenge Files: [pwn_mr_snowy.zip](pwn_mr_snowy.zip)
+### Challenge Files: [pwn_mr_snowy.zip](pwn_mr_snowy.zip)
 
 For this challenge, we are provided with an executable, **mr_snowy**, an example flag.txt, and also a networked service to connect to. Running the program shows a little text adventure game involving a snowman that is a little *sus*. However, you find that basically any available choice runs into a deadend. So there has to be some way to get where we wanna be.
 
