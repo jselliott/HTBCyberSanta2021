@@ -1,6 +1,6 @@
-#Forensics :: Baby APT
+# Forensics :: Baby APT
 
-###Challenge Files: [web_toy_workshop.zip](web_toy_workshop.zip)
+### Challenge Files: [web_toy_workshop.zip](web_toy_workshop.zip)
 
 For this challenge, there is a docker component that hosts the vulnerable website, but you are provided with the challenge files to develop an exploit.
 
