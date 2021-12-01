@@ -1,6 +1,6 @@
-#Forensics :: Baby APT
+# Forensics :: Baby APT
 
-###Challenge Files: [forensics_baby_apt.zip](forensics_baby_apt.zip)
+### Challenge Files: [forensics_baby_apt.zip](forensics_baby_apt.zip)
 
 For this challenge you are provided with a pcap file *christmaswishlist.pcap* which contains some captured traffic. Looking at a first glance you can see that there is some HTTP traffic, which usually means there could be some files being downloaded or uploaded that you can recover.
 
