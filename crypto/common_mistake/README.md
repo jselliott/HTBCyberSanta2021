@@ -1,5 +1,7 @@
 # Crypto :: Common Mistake
 
+*Elves are trying very hard to communicate in perfect secrecy in order to keep Santa's warehouse. Unfortunately, their lack of knowledge about cryptography leads them to common mistakes.*
+
 ### Challenge Files: [crypto_common_mistake.zip](crypto_common_mistake.zip)
 
 For this challenge, you are given a file that appears to contain two RSA encrypted messages, each with an **n**, **e**,and **ct**. And the first thing you see if that they both appear to use the same public key N, but a different public exponent E. This means (as the name hints) this is a common modulus vulnerability.

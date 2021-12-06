@@ -1,5 +1,7 @@
 # Pwn :: Mr. Snowy
 
+*There is ❄️ snow everywhere!! Kids are playing around, everything looks amazing. But, this ☃️ snowman... it scares me.. He is always 👀 staring at Santa's house. Something must be wrong with him.*
+
 ### Challenge Files: [pwn_mr_snowy.zip](pwn_mr_snowy.zip)
 
 For this challenge, we are provided with an executable, **mr_snowy**, an example flag.txt, and also a networked service to connect to. Running the program shows a little text adventure game involving a snowman that is a little *sus*. However, you find that basically any available choice runs into a deadend. So there has to be some way to get where we wanna be.
@@ -84,7 +86,7 @@ For this I used:
 python3 -c "print('1\x00'+'A'*64+'\x00'*8+'\x65\x11\x40\x00',end='')" | ./mr_snowy
 ```
 
-The first 1 and null byte are read as a C-string and advance us to the next menu, then we fill the buffer, plus 8 bytes to reach the return address, and then our target address function in reverse byte order. Notice I made sure not to print a newline (since that goes to the payload as well).
+The first 1 and null byte are since the first read function only reads two bytes and advance us to the next menu, then we fill the buffer, plus 8 bytes to reach the return address, and then our target address function in reverse byte order. Notice I made sure not to print a newline (since that goes to the payload as well).
 
 ![mr_snowy](img/2.png)
 
